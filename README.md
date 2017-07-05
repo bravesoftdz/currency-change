@@ -18,6 +18,8 @@ to the require section of your ```composer.json```
 
 ## Usage
 ```php
+define('LINK_API', 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json');
+
 $currencyList = (new CurrencyList())->loadFromUrl(LINK_API);
 $resource = new CurrencyGOVUA($currencyList);
 $currency = new CurrencyChange($resource);

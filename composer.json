@@ -1,0 +1,26 @@
+{
+    "name": "dykyi-roman/currency-change",
+    "minimum-stability": "stable",
+    "type": "library",
+    "description": "Currency change",
+    "keywords": ["math", "currency","change"],
+    "homepage": "https://github.com/dykyi-roman",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dykyi Roman",
+            "email": "mr.dukuy@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/dykyi-roman/currency-change/issues",
+        "source": "https://github.com/dykyi-roman/"
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {"Dykyi\\": "src/"}
+    }
+}

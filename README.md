@@ -1,26 +1,6 @@
 # currency-change
 Get currency rate from remote api || file
 
-## Installation
-
-### Composer
-
-The preferred way to install this extension is through [Composer](http://getcomposer.org/).
-
-Either run
-
-```
-php composer.phar require dykyi-roman/currency-change "dev-master"
-```
-
-or add
-
-```
-"dikiypac/currency-change": "master"
-```
-
-to the require section of your ```composer.json```
-
 ## Usage
 ```php
 define('LINK_API', 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json');

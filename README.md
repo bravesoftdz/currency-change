@@ -1,6 +1,8 @@
 # currency-change
 Get currency rate from remote api || file
 
+## Installation
+composer create-project --prefer-dist --stability=dev dykyi-roman/currency-change
 ## Usage
 ```php
 define('LINK_API', 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json');

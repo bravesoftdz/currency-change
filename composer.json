@@ -1,6 +1,6 @@
 {
     "name": "dykyi-roman/currency-change",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "type": "library",
     "description": "Currency change",
     "keywords": ["math", "currency","change"],
